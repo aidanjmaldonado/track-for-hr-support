@@ -1,23 +1,23 @@
-# Track ECG for Polar H10 — Support
+# Track ECG Support
 
-**Track ECG** is an independent iOS app for recording, viewing, and exporting data from a Polar H10 chest strap. Track ECG is not affiliated with, endorsed by, or sponsored by Polar Electro Oy.
+Track ECG is an iOS app for recording and exporting data from a Polar H10 chest strap. The app records ECG, heart rate, RR intervals, and accelerometer data. Recordings are stored locally on the iPhone.
 
-## Get help
+The optional Workouts purchase adds activity tracking, GPS routes for outdoor workouts, intervals, and Apple Health integration.
 
-- **[Frequently asked questions](FAQ.md)** — pairing, recordings, History, exports, and troubleshooting.
-- **[Report a bug or request a feature](https://github.com/aidanjmaldonado/trackecg-support/issues/new/choose)** — open an issue in this support repository. Include your iPhone model, iOS version, app version, and steps to reproduce the problem. **Do not attach private ECG recordings, health information, or personal contact details to a public issue.**
-- **[Privacy policy](PRIVACY.md)** — how the app handles sensor measurements and recordings.
+Track ECG is an independent app. It is not affiliated with or endorsed by Polar Electro Oy.
 
-## Before reporting a problem
+## Documentation
 
-Verify the Polar H10 has a working battery and that its strap electrodes have good skin contact. Confirm Bluetooth is enabled and permission to use Bluetooth has been granted to Track ECG. For a recording or export problem, include the export format and whether the recording was saved, paused, or active.
+- [Frequently asked questions](FAQ.md)
+- [Privacy policy](PRIVACY.md)
+- [Report a problem or request a feature](https://github.com/aidanjmaldonado/trackecg-support/issues/new)
 
-## Compatibility
+## Reporting a problem
 
-Track ECG is designed for the **Polar H10**. The app is not intended to diagnose or treat medical conditions.
+Include the iPhone model, iOS version, Track ECG version, and steps to reproduce the problem. For recording and export problems, include the export format and relevant recording settings.
+
+Do not post ECG recordings, location history, medical information, or other personal data in a public issue.
 
 ## Developer
 
-[aidanjmaldonado on GitHub](https://github.com/aidanjmaldonado)
-
-*This public repository contains support documentation only. The Track ECG application source code is not published here.*
+[Aidan Maldonado](https://github.com/aidanjmaldonado)

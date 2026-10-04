@@ -1,41 +1,63 @@
-# Frequently asked questions
+# Frequently Asked Questions
 
 ### What do I need to use Track ECG?
 
-An iPhone running a supported version of iOS and a Polar H10 chest strap. The sensor must be powered and worn with adequate electrode contact.
+An iPhone running a supported version of iOS and a Polar H10 chest strap. Wear the strap with adequate electrode contact.
 
-### How do I connect my Polar H10?
+### How do I connect the Polar H10?
 
-Open the **Record** tab, select the connection control, and select your Polar H10 from the discovered Bluetooth devices. Compare the device identifier with the identifier printed on your sensor when other devices are nearby.
+Open **Record**, start Bluetooth scanning, and select your sensor. Check the device identifier if multiple sensors appear.
 
-### What measurements can I view?
+### What is included for free?
 
-The live feed can display heart rate, ECG, and accelerometer measurements reported by the connected sensor. Tap the graph to switch the displayed stream.
+Standard recording, live sensor plots, saved recording history, and exports.
 
-### Does recording continue when I lock my iPhone?
+### What does Workouts unlock?
 
-Track ECG is designed to continue recording while iOS permits background Bluetooth activity. Background behavior can depend on iOS conditions, Bluetooth connectivity, and device power. Verify your saved recording afterward; do not assume uninterrupted data capture if the sensor disconnects or iOS terminates the app.
+Workouts is a one-time in-app purchase. It adds workout activity selection, indoor and outdoor recording, GPS tracking for outdoor workouts, interval markers, and Apple Health integration. The price is shown in the app.
 
-### Where are my recordings saved?
+### Does Track ECG need Apple Health permission?
 
-Recordings are stored in the app's local storage on your iPhone. The **History** tab is intended to show saved recordings, not active recordings. Deleting the app can delete locally stored recordings, so export any recordings you wish to keep first.
+Standard recording does not require Apple Health. With Workouts unlocked, Apple Health permissions are requested for features that read from or save data to Apple Health. You can change granted permissions in the Health app.
 
-### How do I export a recording?
+### What data is saved to Apple Health?
 
-Open **History**, choose one or more saved recordings, and select **Export**. Depending on the selected format, you can choose data streams, trim recordings, rename the output, and save or share files using the iOS share interface.
+With permission, Track ECG can save completed workouts, heart-rate samples, supported distance measurements, and outdoor GPS routes. ECG and accelerometer recordings remain in Track ECG's local recording files.
 
-### Can Track ECG diagnose heart conditions?
+### What happens if I delete a workout from Apple Health?
 
-No. Track ECG is a recording and visualization tool, not a substitute for a medical evaluation. Seek medical advice for concerns about symptoms or recordings.
+The locally saved Track ECG recording remains in History. **View Data → Refresh** checks whether the linked Apple Health workout is available. A missing result can also indicate unavailable read access.
 
-### Why can't Track ECG find my H10?
+### How do I view or export a recording?
 
-Check the H10 battery, strap contact, Bluetooth permission, and whether the sensor is in range. Disconnecting the sensor from other software that may be using its Bluetooth connection may help. Try reopening the device picker and scanning again.
+In **History**, tap a recording to view its plots. Press and hold a recording for individual actions. To export several recordings, tap **Select**, choose recordings, and tap **Export**.
 
-### Does Track ECG upload my ECG data?
+Export options include CSV, JSON, XML, SQLite, SQL, raw PLRS, GPX, and FIT. Available data and options depend on the export format and recording.
 
-The reviewed app implementation stores recordings locally and does not implement an upload service. When **you choose** to export or share a file through another app or cloud service, handling of the shared file is governed by the destination you select. See the [privacy policy](PRIVACY.md).
+### Can I trim a recording before exporting?
 
-### Can I request a feature or report a problem?
+The Export menu offers trimming for supported formats. The original saved recording remains unchanged.
 
-Yes. [Open a support issue](https://github.com/aidanjmaldonado/trackecg-support/issues/new/choose). Avoid posting personal medical or identifying information in public issues.
+### Does recording continue with the screen locked?
+
+Track ECG supports background Bluetooth recording while iOS permits the connection to remain active. Sensor disconnections and iOS process termination can interrupt recording. Check the saved recording afterward.
+
+### How do I restore Workouts?
+
+Open the Workouts purchase section and use **Restore Purchases**. Restoration uses Apple's StoreKit purchase records.
+
+### Where is my data stored?
+
+Recordings are stored in Track ECG's local app storage. Exported files are saved wherever you choose. Removing the app can remove recordings that have not been exported or otherwise backed up.
+
+### Does Track ECG send recordings to the developer?
+
+The app has no developer-operated upload service in the reviewed implementation. Files leave the app when you choose to export or share them. Apple Health and other destinations handle data under their own settings and policies. See the [privacy policy](PRIVACY.md).
+
+### Can Track ECG diagnose a medical condition?
+
+No. Track ECG provides recording and visualization features. Consult a qualified healthcare professional for medical concerns.
+
+### How do I report a problem?
+
+[Open a support issue](https://github.com/aidanjmaldonado/trackecg-support/issues/new). Do not include personal health information in a public issue.
