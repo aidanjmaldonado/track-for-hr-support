@@ -1,6 +1,6 @@
 # Frequently Asked Questions
 
-### What do I need to use Track ECG?
+### What do I need to use Track for HR?
 
 An iPhone running a supported version of iOS and a Polar H10 chest strap. Wear the strap with adequate electrode contact.
 
@@ -10,23 +10,23 @@ Open **Record**, start Bluetooth scanning, and select your sensor. Check the dev
 
 ### What is included for free?
 
-Standard recording, live sensor plots, saved recording history, and exports.
+Standard recording, live heart-rate and accelerometer plots, saved recording history, and exports.
 
 ### What does Workouts unlock?
 
 Workouts is a one-time in-app purchase. It adds workout activity selection, indoor and outdoor recording, GPS tracking for outdoor workouts, interval markers, and Apple Health integration. The price is shown in the app.
 
-### Does Track ECG need Apple Health permission?
+### Does Track for HR need Apple Health permission?
 
 Standard recording does not require Apple Health. With Workouts unlocked, Apple Health permissions are requested for features that read from or save data to Apple Health. You can change granted permissions in the Health app.
 
 ### What data is saved to Apple Health?
 
-With permission, Track ECG can save completed workouts, heart-rate samples, supported distance measurements, and outdoor GPS routes. ECG and accelerometer recordings remain in Track ECG's local recording files.
+With permission, Track for HR can save completed workouts, heart-rate samples, supported distance measurements, and outdoor GPS routes. Accelerometer recordings remain in Track for HR's local recording files.
 
 ### What happens if I delete a workout from Apple Health?
 
-The locally saved Track ECG recording remains in History. **View Data → Refresh** checks whether the linked Apple Health workout is available. A missing result can also indicate unavailable read access.
+The locally saved Track for HR recording remains in History. **View Data → Refresh** checks whether the linked Apple Health workout is available. A missing result can also indicate unavailable read access.
 
 ### How do I view or export a recording?
 
@@ -40,7 +40,7 @@ The Export menu offers trimming for supported formats. The original saved record
 
 ### Does recording continue with the screen locked?
 
-Track ECG supports background Bluetooth recording while iOS permits the connection to remain active. Sensor disconnections and iOS process termination can interrupt recording. Check the saved recording afterward.
+Track for HR supports background Bluetooth recording while iOS permits the connection to remain active. Sensor disconnections and iOS process termination can interrupt recording. Check the saved recording afterward.
 
 ### How do I restore Workouts?
 
@@ -48,16 +48,16 @@ Open the Workouts purchase section and use **Restore Purchases**. Restoration us
 
 ### Where is my data stored?
 
-Recordings are stored in Track ECG's local app storage. Exported files are saved wherever you choose. Removing the app can remove recordings that have not been exported or otherwise backed up.
+Recordings are stored in Track for HR's local app storage. Exported files are saved wherever you choose. Removing the app can remove recordings that have not been exported or otherwise backed up.
 
-### Does Track ECG send recordings to the developer?
+### Does Track for HR send recordings to the developer?
 
-The app has no developer-operated upload service in the reviewed implementation. Files leave the app when you choose to export or share them. Apple Health and other destinations handle data under their own settings and policies. See the [privacy policy](PRIVACY.md).
+No. The app has no developer-operated upload service. Files leave the app only when you choose to export or share them. Apple Health and other destinations handle data under their own settings and policies. See the [privacy policy](PRIVACY.md).
 
-### Can Track ECG diagnose a medical condition?
+### Can Track for HR diagnose a medical condition?
 
-No. Track ECG provides recording and visualization features. Consult a qualified healthcare professional for medical concerns.
+No. Track for HR is a fitness app that records and displays heart rate and motion data. It is not a medical device. Consult a qualified healthcare professional for medical concerns.
 
 ### How do I report a problem?
 
-[Open a support issue](https://github.com/aidanjmaldonado/trackecg-support/issues/new). Do not include personal health information in a public issue.
+[Open a support issue](https://github.com/aidanjmaldonado/track-for-hr-support/issues/new). Do not include personal health information in a public issue.
